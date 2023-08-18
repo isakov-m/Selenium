@@ -17,7 +17,7 @@ public class _01_ElementinStatus extends BaseDriver {
         MyFunc.Bekle(2);
         System.out.println("sali.isDisplayed() = " + sali.isDisplayed()); // web de görünüyor mu
         System.out.println("sali.isEnabled() = " + sali.isEnabled()); // web de etkin mi
-        System.out.println("sali.isSelected() = " + sali.isSelected()); // çekli durumda mı
+        System.out.println("sali.isSelected() = " + sali.isSelected()); // secili durumda mı
 
         sali.click();
         MyFunc.Bekle(2);
@@ -29,6 +29,8 @@ public class _01_ElementinStatus extends BaseDriver {
         System.out.println("cumartesi.isDisplayed() = " + cumartesi.isDisplayed());
         System.out.println("cumartesi.isEnabled() = " + cumartesi.isEnabled());
         System.out.println("cumartesi.isSelected() = " + cumartesi.isSelected());
+
+        System.out.println("1");
 
         BekleVeKapat();
     }
